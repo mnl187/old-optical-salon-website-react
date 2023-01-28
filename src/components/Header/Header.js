@@ -10,9 +10,9 @@ export const Header = () => {
             <nav className="Header__container_navbar">
                 <ul className="Header__navbar_items">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">Salon</a></li>
+                    <li><a href="/services">Usługi</a></li>
+                    <li><a href="/contact">Kontakt</a></li>
                 </ul>
             </nav>
         </header>

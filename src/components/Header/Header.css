@@ -1,21 +1,20 @@
-.logo img {
-    height: 7vh;
-}
-
 .Header__container {
     background-color: #373a42;
-    height: 7vh;
-    min-height: 7vh;
+    min-height: 6vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /*justify-content: center;*/
     font-size: calc(10px + 2vmin);
     color: white;
 }
 
+.logo img {
+    height: 120px;
+}
+
+
 .Header__container_navbar {
-    min-width: 70%;
+    min-width: 50%;
 }
 
 .Header__navbar_items {
@@ -27,7 +26,7 @@
 }
 
 .Header__navbar_items > li {
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 li > a {
@@ -41,6 +40,7 @@ li > a:link {
 a:visited {
     color: #b8e7e8;
 }
+
 li > a:hover {
     color: #85bcce;
 }
