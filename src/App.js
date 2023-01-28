@@ -1,11 +1,13 @@
 import React from "react";
 import './App.css';
-import {Home} from "../../pages/Home/Home";
+import {Home} from "./pages/Home/Home";
+import {Footer} from "./components/Footer/Footer";
 
 export const App = () => {
-    return <>
-        <p>Test</p>
-        <Home/>
-
-    </>
+    return (
+        <div>
+            <Home/>
+            <Footer/>
+        </div>
+    )
 }
