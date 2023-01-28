@@ -1,12 +1,12 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 export const Header = () => {
-    return <>
+    return (
         <header>
             <nav>
-                <ul>
+                <ul className="Header__container">
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -22,13 +22,5 @@ export const Header = () => {
                 </ul>
             </nav>
         </header>
-        );
-        };
-
-        export default Header;
-
-        <div className="Header__container">
-            <img src="../assets/images/lenses1.jpg" alt="lenses1"/>
-        </div>
-    </>
+)
 }
