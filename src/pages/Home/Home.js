@@ -1,22 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
-import ProductList from './components/ProductList';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
+import {Header} from '../../components/Header';
+import {ProductList} from '../../components/ProductList';
+// import {CallToAction} from './components/CallToAction';
+// import {Footer} from './components/Footer';
 
-const Home = () => {
+export const Home = () => {
     return (
         <div>
-            <Header />
-            <ProductList />
-            <CallToAction
-                message="Znajdź swoje idealne okulary już dziś!"
-                buttonText="Przeglądaj produkty"
-                link="/products"
-            />
-            <Footer />
+            <Header/>
+            <ProductList/>
+            {/*<CallToAction*/}
+            {/*    message="Znajdź swoje idealne okulary już dziś!"*/}
+            {/*    buttonText="Przeglądaj produkty"*/}
+            {/*    link="/products"*/}
+            {/*/>*/}
+            {/*<Footer/>*/}
         </div>
     );
-}
-
-export default Home;
+};
