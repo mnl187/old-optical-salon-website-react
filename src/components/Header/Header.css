@@ -1,6 +1,6 @@
 .Header__container {
     background-color: #373a42;
-    min-height: 6vh;
+    min-height: 5vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -9,7 +9,7 @@
 }
 
 .logo img {
-    height: 120px;
+    height: 128px;
 }
 
 
