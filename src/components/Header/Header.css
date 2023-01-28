@@ -6,6 +6,7 @@
     align-items: flex-start;
     font-size: calc(10px + 2vmin);
     color: white;
+    border-bottom: #d8e7e8 solid 1px;
 }
 
 .logo img {
